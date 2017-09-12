@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        form {
+        display: inline-block; //Or display: inline;
+    }
+    </style>
+</head>
+<body>
+<br>
+    <center><img src="http://www.pngall.com/wp-content/uploads/2017/01/Weather-Report-PNG-Clipart.png" alt=""></center>
+    <h1 align="center">天气查询系统</h1>
+
+    <div class="tool" align="center">
+        <a>输入城市</a>
+        <form action="/check_weather" method="GET">
+            <input type="text" name="city" value="">
+            <input type="submit" value="查询">
+        </form>
+
+        <form action="/check_history" method="GET">
+            <input type="submit" value="历史">
+        </form>
+
+        <form action="/help" method="GET">
+            <input type="submit" value="帮助">
+        </form>
+    <p align="center">{{helpstr}}</p>
+
+    </div>
+</body>
+</html>
