@@ -1,4 +1,4 @@
-## 0x0 的「编程思维 Python 基础班」四期课程仓库
+## 0x0 的「编程思维 Python 基础班」四期课程仓库 
 
 - 课程简介及资源索引：[https://github.com/AIHackers/Py101-004/wiki](https://github.com/AIHackers/Py101-004/wiki)
 - 课程线上讨论地址：[https://github.com/AIHackers/Py101-004/issues](https://github.com/AIHackers/Py101-004/issues)
